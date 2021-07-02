@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'Atomontage Docs',
   tagline: 'Dinosaurs are cool',
-  url: 'https://mkster.github.io.',
+  url: 'https://loving-nobel-30f989.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -13,6 +13,9 @@ module.exports = {
   organizationName: 'mkster', // Usually your GitHub org/user name.
   projectName: 'atomontage-docs', // Usually your repo name.
   themeConfig: {
+    colorMode: {
+      defaultMode: 'dark',
+    },
     navbar: {
       title: 'Atomontage Docs',
       logo: {
