@@ -4,8 +4,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'Atomontage Docs',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://loving-nobel-30f989.netlify.app',
+  tagline: 'Atomontage Tools Documentation',
+  url: 'https://atomontagedocs.netlify.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -17,12 +17,13 @@ module.exports = {
       defaultMode: 'dark',
     },
     navbar: {
-      title: 'Atomontage Docs',
+      title: 'Atomontage Documentation',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Atomontage Logo',
+        src: 'img/logo_large.png',
       },
       items: [
+        /*
         {
           type: 'doc',
           docId: 'intro',
@@ -30,7 +31,6 @@ module.exports = {
           label: 'Docs',
         },
         //{to: '/blog', label: 'Blog', position: 'left'},
-        /*
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
@@ -57,16 +57,16 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Atomontage',
+              href: 'https://www.atomontage.com/',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/atomontage_com',
+            },
+            {
+              label: 'YouTube',
+              href: 'https://www.youtube.com/channel/UClzSvcwdGx9v66YRza5u_Mg',
             },
           ],
         },
@@ -81,12 +81,12 @@ module.exports = {
             */
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/mkster/atomontage-docs/tree/master/',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Atomontage Inc.`,
     },
     prism: {
       theme: lightCodeTheme,
@@ -103,13 +103,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/mkster/atomontage-docs/tree/master/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/mkster/atomontage-docs/tree/master/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

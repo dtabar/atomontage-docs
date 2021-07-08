@@ -5,7 +5,7 @@
             "type": "lua",
             "request": "launch",
             "name": "Launch",
-            "program": "${workspaceFolder}/genDocs.lua"
+            "program": "${workspaceFolder}/generator/genDocs.lua"
         }
     ]
 }

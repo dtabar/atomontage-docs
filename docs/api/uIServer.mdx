@@ -1,0 +1,41 @@
+---
+title: UIServer
+id: uIServer
+---
+
+## List of Methods
+
+### table GetClients (this_state)
+
+### void SendMessages (int, table)
+
+### table ReceiveMessages (this_state)
+
+### uint GetScriptsVersion ()
+
+### void ResendScripts ()
+
+### bool ReloadScripts ()
+
+### Vector_uint GetClientIDs ()
+
+### Vector_uint GetVoxelClientIDs (UIServer)
+
+### AmStreamingStats GetVoxelStreamStats (UIServer, int)
+
+### ServerConnectionInfo GetServerConnectionInfo ()
+
+### unordered_map<unsigned__int64,classae::studio::ConnectionInfo,structstd::hash<unsigned__int64>,structstd::equal_to<unsigned__int64>,classstd::allocator<structstd::pair<unsigned__int64const,classae::studio::ConnectionInfo>> > GetConnectionInfos ()
+
+### NetworkStat GetNetworkStat ()
+
+### unordered_map<unsigned__int64,classae::studio::NetworkStat,structstd::hash<unsigned__int64>,structstd::equal_to<unsigned__int64>,classstd::allocator<structstd::pair<unsigned__int64const,classae::studio::NetworkStat>> > GetNetworkStats ()
+
+### void Log (uint, string, string)
+
+### void Log (string)
+
+### string GetAppCommandLine (UIServer)
+
+### void OnLuaLog ()
+
